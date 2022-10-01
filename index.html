@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <title>知识分享网站</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+        a{ text-decoration:none}
+        a:hover{ text-decoration:none}
+        a:visited {color:black}
+        a:hover {color:#00aaff}
+        a:active {color:#0088ff;}
+        </style>
+
+        <script>
+        function OnSearchBtnClicked() {
+            let web_url = "nestasdn.top";
+            let searchInput = document.getElementById('inp');
+            let searchKey = searchInput.value;
+            let bingurl="http://global.bing.com/search?q="+ searchKey+"+site%3a" + web_url;
+            window.open(bingurl)
+        }
+        </script>
+      
+        <h1>布谷鸟 —— 让孤独症“bù gū”独</h1>
+        <h2><img src="logo.png" alt="LOGO图片" class="logo"></h2>
+        <h3><a href="index.html">主页</a></h3>    
+        <h4><a href="About us.html">关于我们</a></h4> 
+        <h5>知识智库</h5>
+        <h6>帮助</h6>
+        
+        <input id="inp" type="text" name="search" placeholder="请输入搜索内容" autocomplete="off" autofocus>
+        <button onclick="OnSearchBtnClicked()">搜索</button>
+    </head>
+    <body>
+        <h7><img src="2.png" alt="装饰图" class="picture"></h7>
+    </body>
+    </html>

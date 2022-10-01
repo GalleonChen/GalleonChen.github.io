@@ -1,0 +1,151 @@
+/* 小屏幕手机端 */
+@media (min-width: 0px) and (max-width:768px) {
+    .div1{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 768px) and (max-width:992px){
+    .div1{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 992px) {
+    .div1{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+h1{
+    /* 布谷鸟 —— 让孤独症“bù gū”独 */
+    position: absolute;
+    width: 318px;
+    height: 36px;
+    top: 40px;
+    left: 113px;
+    font-family: FZQingKeBenYueSongS-R-GB;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h3{
+    /* 主页 */
+    position: absolute;
+    width: 80.42px;
+    height: 43px;
+    top: 25px;
+    left: 495px;
+    font-family: FZQingKeBenYueSongS-R-GB;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    }
+
+h4{
+    /* 关于我们 */
+    position: absolute;
+    width: 160.83px;
+    height: 43px;
+    top: 18px;
+    left: 610px;
+    font-family: FZQingKeBenYueSongS-R-GB;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h5{
+    /* 知识智库 */
+    position: absolute;
+    width: 160.83px;
+    height: 43px;
+    top: 10px;
+    left: 780px;
+    font-family: FZQingKeBenYueSongS-R-GB;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h6{
+/* 帮助 */
+    position: absolute;
+    width: 80.42px;
+    height: 43px;
+    top: -6px;
+    left: 965px;
+    font-family: FZQingKeBenYueSongS-R-GB;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 25px;
+    left: 25px;  
+    }  
+
+body{
+    /*背景图片*/
+    background: url(Hero.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: -20px 0px
+    }
+
+input{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    top: 44px;
+    left: 1100px;
+    border: 2px solid #00aaff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    text-indent: 10px;
+}
+
+input:focus{
+    border-style:solid;
+    border-color: #00aaff;
+	box-shadow: 0 0 5px #00aaff;
+}
+
+button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 44px;
+    left: 1405px;
+    border: none;
+    border-radius: 5px;
+    background: #00aaff;
+    vertical-align: middle;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.picture{
+/* 2 */
+position: absolute;
+width: 310px;
+height: 508px;
+top: 250px;
+left: 1100px;
+background: url(2);    
+}
+
+
